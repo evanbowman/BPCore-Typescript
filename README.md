@@ -1,0 +1,27 @@
+# Introduction
+
+A typescript project template for
+(https://github.com/evanbowman/BPCore-Engine)[BPCoreEngine]. Uses
+TypeScriptToLua to transpile TypeScript to Lua, bundling all files into a
+main.lua script. Includes a manifest.lua script that bundles main.lua along with
+the engine.
+
+
+# Building
+
+First, install node, npm, and Lua 5.3
+
+Next, within this directory, run `npm install -D typescript-to-lua`.
+
+To convert the typescript sources into a Lua bundle, run `npm run build`.
+
+Finally, run `./build.lua` to bundle the output of TSTL along with the other files in manifest.lua.
+
+
+# Disclaimer
+
+I do not know typescript, and I threw this template together in like half an
+hour. I cannot guarantee that I got all the type annotations correct for the
+stuff in bpcore.ts. If, unlike me, you know TypeScript, and find an issue with
+one of the type annotations for one of the BPCore API functions, please create a
+PR with the fixes.
