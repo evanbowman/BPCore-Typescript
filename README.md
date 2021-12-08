@@ -19,7 +19,7 @@ Finally, run `./build.lua` to bundle the output of TSTL along with the other fil
 
 # Limitations
 
-I have not bothered to include typescript bindings for everything in the Lua standard libraries. You can find bindings here:
+I have not bothered to include typescript bindings for everything in the Lua standard libraries. You can find open source bindings here:
 https://github.com/TypeScriptToLua/lua-types.
 
 # Disclaimer
