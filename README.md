@@ -1,7 +1,7 @@
 # Introduction
 
 A typescript project template for
-(https://github.com/evanbowman/BPCore-Engine)[BPCoreEngine]. Uses
+[BPCoreEngine](https://github.com/evanbowman/BPCore-Engine). Uses
 TypeScriptToLua to transpile TypeScript to Lua, bundling all files into a
 main.lua script. Includes a manifest.lua script that bundles main.lua along with
 the engine.
